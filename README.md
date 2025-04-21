@@ -1,3 +1,6 @@
+
+![freepik__background__2104](https://github.com/user-attachments/assets/84fbb24a-336d-4f3e-b144-e34db9146679)
+
 # Ramones VinilPlayer 🎸  
 
 **Ramones VinilPlayer** is a retro-inspired music player built with React, featuring a vinyl-style interface and a minimalist design. Perfect for showcasing classic tracks and nostalgic vibes.
