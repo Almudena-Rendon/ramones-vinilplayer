@@ -6,6 +6,7 @@
   height: calc(100vh - 50px);
   width: 100%;
   text-align: center;
+  overflow: hidden;
 }
 
 .vinyl-container {
@@ -164,9 +165,29 @@
 }
 
 /* Reponsive */
+@media screen and (max-width: 1200px) {
+  .main-container {
+    overflow: hidden;
+  }
+
+  .vinyl-container {
+    position: relative;
+    width: 450px;
+    height: 450px;
+  }
+
+  .cover button {
+    bottom: 30px;
+    left: 30px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .main-container {
     height: calc(100vh - 40px);
+    overflow: hidden;
   }
 
   .vinyl-container {
