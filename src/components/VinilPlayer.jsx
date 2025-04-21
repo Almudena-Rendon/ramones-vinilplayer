@@ -108,7 +108,7 @@ const VinylPlayer = () => {
     <div className="main-container">
       <div className="vinyl-container">
         <div className="cover">
-          <img src="/images/ramones_cd.png" alt="Carátula del vinilo" />
+          <img src="/images/ramones_cd.webp" alt="Carátula del vinilo" />
           <button onClick={toggleVinyl}>
             {isOpen ? (
               <CgPlayPause className="pause-icon" />
@@ -118,7 +118,7 @@ const VinylPlayer = () => {
           </button>
         </div>
         <div className={`vinyl ${isOpen ? 'open' : ''}`}>
-          <img src="/images/blank-viny.png" alt="Vinilo" />
+          <img src="/images/blank-viny.webp" alt="Vinilo" />
         </div>
         <audio ref={audioRef} src={songs[songIndex]?.src} />
       </div>

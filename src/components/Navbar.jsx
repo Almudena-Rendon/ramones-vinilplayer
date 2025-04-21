@@ -5,7 +5,7 @@ const Navbar = () => {
     <header className="navbar">
       <div className="navbar-container">
         <img
-          src="/images/almu-codes.png"
+          src="/images/almu-codes.webp"
           alt="Logo derecho"
           className="navbar-logo right"
         />
