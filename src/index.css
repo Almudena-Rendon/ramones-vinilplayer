@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/images/brick-wall.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

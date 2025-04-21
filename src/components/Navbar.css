@@ -1,0 +1,21 @@
+.navbar {
+  background-color: transparent; 
+  height: 50px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+@media screen and (max-width: 480px) { 
+  .navbar-logo {
+    height: 40px;
+  }
+}
